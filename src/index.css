@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: poxast;
+  src: url(../public/Poxast-R9Jjl.otf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+br {
+  padding-top: 4px;
+}
+
+@keyframes pixelBop {
+  0% {
+    margin-bottom: 0px;
+  }
+
+  49% {
+    margin-bottom: 0px;
+  }
+
+  50% {
+    margin-bottom: 2px;
+  }
+
+  99% {
+    margin-bottom: 2px;
+  }
+
+  100% {
+    margin-bottom: 0px;
+  }
+}
+
+
+@keyframes pixelReverseBop {
+  0% {
+    margin-bottom: 2px;
+  }
+
+  49% {
+    margin-bottom: 2px;
+  }
+
+  50% {
+    margin-bottom: 0px;
+  }
+
+  99% {
+    margin-bottom: 0px;
+  }
+
+  100% {
+    margin-bottom: 2px;
+  }
+}
+
+.pixelize {
+  animation: pixelBop 2s linear infinite;
+}
+
+.pixelize:nth-child(odd) {
+  animation: pixelReverseBop 2s linear infinite;
+}
