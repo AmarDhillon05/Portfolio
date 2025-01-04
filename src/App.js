@@ -139,7 +139,7 @@ function App() {
            like-minded people to learn and grow from. 
           </p>
 
-          <img id = "amar" src = "amar.png" className = "pixelize" style = {{
+          <img id = "amar" src = "amar.png" class = "pixelize" style = {{
             width: "350px", height: "400px"
           }}></img>
 
