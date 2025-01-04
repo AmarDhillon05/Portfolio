@@ -273,7 +273,7 @@ function App() {
             <h1 className = "text-3xl header text-green-500 norandom notype" id = "Flickr Captioning" style = {{"fontFamily" : "poxast"}}></h1>
             <p className="pb-4">A self-architectured Encoder-Decoder model to caption images on Flickr-8k </p>
 
-            <a href = "https://www.kaggle.com/code/amardhillon05/vit-experiments-on-cifar-subset" className="text-zinc-600 hover:text-white inline italic float-left">Visit Notebook</a>
+            <a href = "https://www.kaggle.com/code/amardhillon05/flikr-captioning" className="text-zinc-600 hover:text-white inline italic float-left">Visit Notebook</a>
 
             <a href = "https://www.kaggle.com/code/amardhillon05/flikr-captioning" class = "ml-24">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" 
