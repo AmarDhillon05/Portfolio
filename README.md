@@ -1,1 +1,1 @@
-Goto http://site.adh05.com 
+Amar Dhillon's portfolio site
