@@ -72,7 +72,9 @@ function App() {
     let idx = 0;
     Array.from(document.getElementsByClassName("pixelize")).forEach(img => {
       img.style.imageRendering = "pixelated"
-      img.src = "icons8-" + img.id + "-48.png"
+      if(!img.src.includes("amar")){
+        img.src = "icons8-" + img.id + "-48.png"
+      }
       img.className = "inline w-16 h-16 mx-4"
       
       if(idx % 2 == 0){
@@ -139,7 +141,7 @@ function App() {
            like-minded people to learn and grow from. 
           </p>
 
-          <img id = "amar" src = "amar.png" class = "pixelize" style = {{
+          <img id = "amar" src = "amar.png" class = "pixelize noicon" style = {{
             width: "350px", height: "400px"
           }}></img>
 
