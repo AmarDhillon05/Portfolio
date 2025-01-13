@@ -235,7 +235,7 @@ function App() {
 
           <div style={{width: "300px", height: "120px", textAlign: "center", display: "inline-block", margin: "30px"}}>
             
-            <h1 className = "text-3xl header text-red-600 norandom notype" id = "Shoe Price" style = {{"fontFamily" : "poxast"}}></h1>
+            <h1 className = "text-3xl header text-red-600 norandom notype" id = "$hoes" style = {{"fontFamily" : "poxast"}}></h1>
             <p className="pb-4">A site that scrapes and predicts the resell prices of upcoming shoes to educate resellers </p>
 
             <a href = "http://shoeapp.adh05.com" className="text-zinc-600 hover:text-white inline italic float-left">Visit Site</a>
