@@ -222,7 +222,7 @@ function App() {
             <h1 className = "text-3xl header text-purple-600 norandom notype" id = "PianoAI" style = {{"fontFamily" : "poxast"}}></h1>
             <p className="pb-4">A beginner-friendly app to compose and share piano sheet music with the help of generative AI </p>
 
-            <a href = "http://pianoai.adh05.com" className="text-zinc-600 hover:text-white inline italic float-left">Visit Site</a>
+            <a href = "https://piano-ai.vercel.app/" className="text-zinc-600 hover:text-white inline italic float-left">Visit Site</a>
 
             <a href = "https://github.com/AmarDhillon05/PianoAI" class = "ml-24">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" 
@@ -238,7 +238,7 @@ function App() {
             <h1 className = "text-3xl header text-red-600 norandom notype" id = "$hoes" style = {{"fontFamily" : "poxast"}}></h1>
             <p className="pb-4">A site that scrapes and predicts the resell prices of upcoming shoes to educate resellers </p>
 
-            <a href = "http://shoeapp.adh05.com" className="text-zinc-600 hover:text-white inline italic float-left">Visit Site</a>
+            <a href = "https://shoes-pied-zeta.vercel.app/" className="text-zinc-600 hover:text-white inline italic float-left">Visit Site</a>
 
             <a href = "https://github.com/AmarDhillon05/shoe-price" class = "ml-24">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" 
