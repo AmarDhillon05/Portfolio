@@ -1,13 +1,16 @@
 import { useState, useEffect } from "react";
 import Typed from "./Typed";
 
-export default function Project({name, tagline, description, github, site}){
+export default function Project({name, tagline, description, github, site, classList = ""
+}){
 
     const [view, showView] = useState(false)
 
     return (
 
-        <div className = "flex items-center justify-center flex-col border-white border-2 w-1/4 mx-2 my-2 max-h-1/2 min-h-1/2 py-2">
+        <div className = {`flex items-center justify-center flex-col border-white border-2 w-1/4 mx-2 my-2 max-h-1/2 min-h-1/2 py-2
+            min-h-[150px] px-4 text-center
+        ${classList}`}>
             <Typed
                 text = {name}
                 classList="text-4xl font-bold"
