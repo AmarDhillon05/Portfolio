@@ -4,79 +4,110 @@ import Project from "../components/Project"
 
 export default function Exp(){
     return (
-        <div className = "flex items-center justify-center flex-col h-screen w-full">
+        <div className = "flex items-center justify-center flex-col  w-full overflow-y-scroll">
             <Header name = "experience"></Header>
 
-            <Typed text = {`Work experience`}
-                    classList = "text-4xl py-6 w-auto text-center m-auto"
-                    delay = {500}
-                ></Typed>
+<div>
+            <div>
+                <Typed text = {`Work experience`}
+                        classList = "text-4xl py-6 w-auto text-center m-auto"
+                        delay = {500}
+                    ></Typed>
 
 
 
-            <div className = "flex flex-row flex-wrap w-full justify-center items-center">
-                <Project
-                    name = "ML Research Assistant"
-                    tagline = "University of Maryland | Feb 25 - Present"
-                    description = {[`- Developed a LSTM-based  wind speed predictor to find optimal turbine locations to 
-                        power EV chargers`,
+                <div className = "flex flex-row flex-wrap w-full justify-center items-center items-stretch">
+                    <Project
+                        name = "ML Research Assistant"
+                        tagline = "University of Maryland | Feb 25 - Present"
+                        description = {[`- Developed a LSTM-based  wind speed predictor to find optimal turbine locations to 
+                            power EV chargers`,
 
-                            `- Working on integrating Python socket pipelines to stream from  into a central Flask server for 
-                            fast data collection and model training`,
+                                `- Working on integrating Python socket pipelines to stream from  into a central Flask server for 
+                                fast data collection and model training`,
 
-                            `- Utilizing trained models, weather APIs, and Mapbox in Unity to create an AR 
-                            experience for visualizations of optimal EV charger locations`,
-                        ]}
-                ></Project>
-      
+                                `- Utilizing trained models, weather APIs, and Mapbox in Unity to create an AR 
+                                experience for visualizations of optimal EV charger locations`,
+                            ]}
+                    ></Project>
+        
 
-                <Project
-                    name = "Robotics Researcher"
-                    tagline = "Northrop-Grumman Innovation Lab | Jan 25 - Present"
-                    description = {[`- Implemented a Python OpenCV algorithm to detect Ocean Mines using a drone with >70% accuracy`,
+                    <Project
+                        name = "Robotics Researcher"
+                        tagline = "Northrop-Grumman Innovation Lab | Jan 25 - Present"
+                        description = {[`- Implemented a Python OpenCV algorithm to detect Ocean Mines using a drone with >70% accuracy`,
 
-                            `- Utilized QGroundControl alongside custom Python scripts for intelligent drone maneuvering`,
+                                `- Utilized QGroundControl alongside custom Python scripts for intelligent drone maneuvering`,
 
-                            `- Architecturing arduinos onto a drone for optimally accumulating and processing sensor inputs real-time`,
-                        ]}
-                ></Project>
-     
+                                `- Architecturing arduinos onto a drone for optimally accumulating and processing sensor inputs real-time`,
+                            ]}
+                    ></Project>
+        
 
+                    <Project
+                        name = "Software Development Intern"
+                        tagline = "BuildUrFuture | May 25 - Present"
+                        description = {[`- Integrated vector search on a Fargate task to utilize market trends & power intelligent job search`,
 
-                <Project
-                    name = "Technical Lead"
-                    tagline = "TerpLabs | Apr 25 - Present"
-                    description = {[`- Co-Founded TerpLabs, a student org. at UMD creating apps and utilities for students, and leading the development of TerpMeals`,
+                                `- Implemented scalable data storage and querying using Firebase and Amazon S3 with Athena for analytics and tracking`,
 
-                            `- Built asynchronous Puppeteer scripts hosted on Lambda functions for fast scraping of 200+ menu items and nutritional information`,
-
-                            `- Implemented a Mistral-powered workflow for AI-generated nutrition plans that have received >80% satisfaction rates`,
-                        ]}
-                ></Project>
-
+                                `- Developed agile workflows with Notion dashboards and scheduling tool automations in Python, establishing team coordination at an early-stage startup`,
+                            ]}
+                    ></Project>
 
 
-                <Project
-                    name = "Sustainability Analytics Researcher"
-                    tagline = "University of Maryland | Jan 25 - Present"
-                    description = {[`- Analyzed datasets regarding the adaptation of "smart-city" utilities in the Baltimore area`,
+                    <Project
+                        name = "Technical Lead"
+                        tagline = "TerpLabs | Apr 25 - Present"
+                        description = {[`- Co-Founded TerpLabs, a student org. at UMD creating apps and utilities for students, and leading the development of TerpMeals`,
 
-                            `- Utilized R to find trends and evaluated performance of a regression model to understand the feasibility of smart-city tools`,
+                                `- Built asynchronous Puppeteer scripts hosted on Lambda functions for fast scraping of 200+ menu items and nutritional information`,
 
-                            `- Created an organized research poster presenting the findings and further steps to be taken`,
-                        ]}
-                ></Project>
-      
+                                `- Implemented a Mistral-powered workflow for AI-generated nutrition plans that have received >80% satisfaction rates`,
+                            ]}
+                    ></Project>
+
+
+
+                    <Project
+                        name = "Sustainability Analytics Researcher"
+                        tagline = "University of Maryland | Jan 25 - Present"
+                        description = {[`- Analyzed datasets regarding the adaptation of "smart-city" utilities in the Baltimore area`,
+
+                                `- Utilized R to find trends and evaluated performance of a regression model to understand the feasibility of smart-city tools`,
+
+                                `- Created an organized research poster presenting the findings and further steps to be taken`,
+                            ]}
+                    ></Project>
+        
+                </div>
             </div>
 
 
+        <div>
             <Typed text = {`Projects`}
                 classList = "text-4xl py-6 w-auto text-center m-auto"
                 delay = {500}
             ></Typed>
 
 
-            <div className = "flex flex-row flex-wrap w-full justify-center items-center">
+            <div className = "flex flex-row flex-wrap w-full justify-center items-center items-stretch">
+
+
+                <Project
+                    name = "Echelon"
+                    tagline = "A ranking app powered by modern vector search advancements"
+                    description = {[`- Utilized Pinecone embeddings predicted by currently trained versions of CLIP and Wave2Vec to power intelligent matchmaking`,
+
+                            `- Created a versatile API for embedding as Fargate EC2 tasks for simple, low-cost tasks on a simple Flask APIs, and with deployment automated with Terraform`,
+
+                            `- Made fast CRUD functionality with MongoDB + Express for APIs and React for the frontend`,
+                        ]}
+                    github = "https://github.com/AmarDhillon05/echelon"
+                    site = "https://github.com/AmarDhillon05/echelon"
+                ></Project>
+
+                
                 <Project
                     name = "PianoAI"
                     tagline = "A beginner-friendly AI-assisted piano music composer"
@@ -159,6 +190,8 @@ export default function Exp(){
 
             </div>
 
+        </div>
+</div>
         </div>
     )
 }
