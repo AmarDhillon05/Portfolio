@@ -57,7 +57,7 @@ export default function Exp(){
 
 
                     <Project
-                        name = "Technical Lead"
+                        name = "Co-Founder"
                         tagline = "TerpLabs | Apr 25 - Present"
                         description = {[`- Co-Founded TerpLabs, a student org. at UMD creating apps and utilities for students, and leading the development of TerpMeals`,
 
