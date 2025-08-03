@@ -21,7 +21,7 @@ export default function Home(){
                 skills = {["SkLearn", "Tensorflow", "PyTorch", "HuggingFace", "LangChain"]}></Skills>
 
                 <Skills name = "Hardware & Embedded" 
-                skills = {["Arduino architectures", "Rasberry Pi", "Assembly", "FreeRTOS", "EasyEDA"]}></Skills>
+                skills = {["Arduino architectures", "Rasberry Pi", "Assembly", "FreeRTOS", "EasyEDA", "Verilog", "Digital Logic]}></Skills>
 
                 <Skills name = "Cloud & DevOps" 
                 skills = {["AWS", "Docker", "GCP", "Terraform", "Git", "CICD"]}></Skills>
