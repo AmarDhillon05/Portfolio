@@ -28,26 +28,29 @@ export default function Exp(){
 
                                 `- Utilizing trained models, weather APIs, and Mapbox in Unity to create an AR 
                                 experience for visualizations of optimal EV charger locations`,
+
+                                `- Aiding in the optimization of a PWM battery charging module to be able to charge multiple batteries 
+                                efficiently while sending data to our Rasberry Pi server setup`,
                             ]}
                     ></Project>
         
 
                     <Project
                         name = "Robotics Researcher"
-                        tagline = "Northrop-Grumman Innovation Lab | Jan 25 - Present"
+                        tagline = "Northrop-Grumman Innovation Lab | Jan 25 - July 25"
                         description = {[`- Implemented a Python OpenCV algorithm to detect Ocean Mines using a drone with >70% accuracy`,
 
                                 `- Utilized QGroundControl alongside custom Python scripts for intelligent drone maneuvering`,
 
-                                `- Architecturing arduinos onto a drone for optimally accumulating and processing sensor inputs real-time`,
+                                `- Optimized the sensor layout on a PCB to easily work on a 2-layer board using a single MCU alongside other drones`,
                             ]}
                     ></Project>
         
 
                     <Project
                         name = "Software Development Intern"
-                        tagline = "BuildUrFuture | May 25 - Present"
-                        description = {[`- Integrated vector search on a Fargate task to utilize market trends & power intelligent job search`,
+                        tagline = "BuildUrFuture | May 25 - August 25"
+                        description = {[`- Integrated vector search on cloud instances to utilize market trends & power intelligent job search`,
 
                                 `- Implemented scalable data storage and querying using Firebase and Amazon S3 with Athena for analytics and tracking`,
 
@@ -64,6 +67,8 @@ export default function Exp(){
                                 `- Built asynchronous Puppeteer scripts hosted on Lambda functions for fast scraping of 200+ menu items and nutritional information`,
 
                                 `- Implemented a Mistral-powered workflow for AI-generated nutrition plans that have received >80% satisfaction rates`,
+
+                                `- Establishing organization for bootcamps and project teams to give students real-world experience in both building and growing a product`,
                             ]}
                     ></Project>
 
