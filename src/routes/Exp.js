@@ -17,6 +17,20 @@ export default function Exp(){
 
 
                 <div className = "flex flex-row flex-wrap w-full justify-center items-center items-stretch">
+
+                    <Project
+                            name = "Mobile App Dev Intern"
+                            tagline = "Narb | Jun 25 - Present"
+                            description = {[
+                                `- Leading a startup team on an all-in-one shoe collector's app to facilitate the lives of sneakerheads`
+                                
+                                `- Experimenting with modelling and deployment of a computer vision application to recognize shoes in the wild`
+
+                                `- Architecturing the backend to optimize for cost while taking in data from various APIs, utilizing an AWS stack for deployment and monitoring`
+
+                                `- Migrating the code infrastructure to React Native + Express from a web alpha`
+                            ]}
+                        
                     <Project
                         name = "ML Research Assistant"
                         tagline = "University of Maryland | Feb 25 - Present"
@@ -37,7 +51,7 @@ export default function Exp(){
 
                     <Project
                         name = "Robotics Researcher"
-                        tagline = "Northrop-Grumman Innovation Lab | Jan 25 - July 25"
+                        tagline = "Northrop-Grumman Innovation Lab | Jan 25 - Jul 25"
                         description = {[`- Implemented a Python OpenCV algorithm to detect Ocean Mines using a drone with >70% accuracy`,
 
                                 `- Utilized QGroundControl alongside custom Python scripts for intelligent drone maneuvering`,
