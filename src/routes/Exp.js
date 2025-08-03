@@ -32,7 +32,7 @@ export default function Exp(){
                             ]}
 
 
-                                </Project>
+                                ></Project>
                         
                     <Project
                         name = "ML Research Assistant"
