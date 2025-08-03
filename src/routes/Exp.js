@@ -30,6 +30,9 @@ export default function Exp(){
 
                                 `- Migrating the code infrastructure to React Native + Express from a web alpha`
                             ]}
+
+
+                                </Project>
                         
                     <Project
                         name = "ML Research Assistant"
