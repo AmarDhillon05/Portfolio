@@ -18,21 +18,24 @@ export default function Exp(){
 
                 <div className = "flex flex-row flex-wrap w-full justify-center items-center items-stretch">
 
-                    <Project
-                            name = "Mobile App Dev Intern"
-                            tagline = "Narb | Jun 25 - Present"
-                            description = {[
-                                `- Leading a startup team on an all-in-one shoe collector's app to facilitate the lives of sneakerheads`
-                                
-                                `- Experimenting with modelling and deployment of a computer vision application to recognize shoes in the wild`
+         <Project
+                        name = "Mobile App Dev Intern"
+                        tagline = "Narb | Jun 25 - Present"
+                        description = {[`- Developed a LSTM-based  wind speed predictor to find optimal turbine locations to 
+                            power EV chargers`,
 
-                                `- Architecturing the backend to optimize for cost while taking in data from various APIs, utilizing an AWS stack for deployment and monitoring`
+                                `- Working on integrating Python socket pipelines to stream from  into a central Flask server for 
+                                fast data collection and model training`,
 
-                                `- Migrating the code infrastructure to React Native + Express from a web alpha`
+                                `- Utilizing trained models, weather APIs, and Mapbox in Unity to create an AR 
+                                experience for visualizations of optimal EV charger locations`,
+
+                                `- Aiding in the optimization of a PWM battery charging module to be able to charge multiple batteries 
+                                efficiently while sending data to our Rasberry Pi server setup`,
                             ]}
+                    ></Project>
 
-
-                                ></Project>
+                            
                         
                     <Project
                         name = "ML Research Assistant"
