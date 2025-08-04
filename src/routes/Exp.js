@@ -21,17 +21,13 @@ export default function Exp(){
          <Project
                         name = "Mobile App Dev Intern"
                         tagline = "Narb | Jun 25 - Present"
-                        description = {[`- Developed a LSTM-based  wind speed predictor to find optimal turbine locations to 
-                            power EV chargers`,
+                        description = {[`- Leading a startup team on creating a shoe collector's app with utilities for all sneakerheads`,
 
-                                `- Working on integrating Python socket pipelines to stream from  into a central Flask server for 
-                                fast data collection and model training`,
+                                `- Experimenting ways to host a computer vision model for sneaker detection while avoiding extra costs of hosting and extra databases`,
 
-                                `- Utilizing trained models, weather APIs, and Mapbox in Unity to create an AR 
-                                experience for visualizations of optimal EV charger locations`,
+                                `- Architecturing the AWS-based external API ingestion and database development of our app`,
 
-                                `- Aiding in the optimization of a PWM battery charging module to be able to charge multiple batteries 
-                                efficiently while sending data to our Rasberry Pi server setup`,
+                                `- Migrating raw designs to React Native`,
                             ]}
                     ></Project>
 
