@@ -19,7 +19,7 @@ export default function Exp(){
                 <div className = "flex flex-row flex-wrap w-full justify-center items-center items-stretch">
 
          <Project
-                        name = "Mobile App Dev Intern"
+                        name = "Software Development Intern"
                         tagline = "Narb | Jun 25 - Present"
                         description = {[`- Leading a startup team on creating a shoe collector's app with utilities for all sneakerheads`,
 
@@ -56,9 +56,9 @@ export default function Exp(){
                         tagline = "Northrop-Grumman Innovation Lab | Jan 25 - Jul 25"
                         description = {[`- Implemented a Python OpenCV algorithm to detect Ocean Mines using a drone with >70% accuracy`,
 
-                                `- Utilized QGroundControl alongside custom Python scripts for intelligent drone maneuvering`,
+                                `- Utilized QGroundControl alongside custom C++ scripts for intelligent drone maneuvering`,
 
-                                `- Optimized the sensor layout on a PCB to easily work on a 2-layer board using a single MCU alongside other drones`,
+                                `- Optimized the sensor layout on a PCB to reduce latency taking multiple inputs from Arduinos attatched to our drone`,
                             ]}
                     ></Project>
         
@@ -125,7 +125,7 @@ export default function Exp(){
                             `- Made fast CRUD functionality with MongoDB + Express for APIs and React for the frontend`,
                         ]}
                     github = "https://github.com/AmarDhillon05/echelon"
-                    site = "https://github.com/AmarDhillon05/echelon"
+                    site = "https://echelon-ob8vzl020-amardhillon05s-projects.vercel.app/"
                 ></Project>
 
                 
