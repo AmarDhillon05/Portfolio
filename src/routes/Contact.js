@@ -9,8 +9,8 @@ export default function Home(){
 
             <div className = "items-center justify-center flex flex-row">
                 <p className = "text-4xl py-6 w-auto text-center m-auto px-4">Email: </p>
-                <a href = "mailto:adhillon0535821@gmail.com">
-                    <Typed text = {`adhillon0535821@gmail.com`}
+                <a href = "mailto:amardhillon844@gmail.com">
+                    <Typed text = {`amardhillon844@gmail.com`}
                         classList = "text-4xl py-6 w-auto text-center m-auto hover:text-gray-200 transition-all duration-500"
                         delay = {500}
                     ></Typed>
