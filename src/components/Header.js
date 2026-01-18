@@ -3,7 +3,7 @@ import { useState, useEffect, use } from "react";
 
 export default function Header({name}){
     const headerList = ["", "about", "skills", "experience", "contact"]
-    const headerNames = ["Hello, I'm Amar Dhillon", "About me", "My Skills", "My Experience", "Contact Me"]
+    const headerNames = ["Hi, I'm Amar", "About me", "My Skills", "My Experience", "Contact Me"]
     const index = headerList.indexOf(name)
     
     function goBack(){
