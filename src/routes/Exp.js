@@ -19,15 +19,17 @@ export default function Exp(){
                 <div className = "flex flex-row flex-wrap w-full justify-center items-center items-stretch">
 
          <Project
-                        name = "Software Development Intern"
-                        tagline = "Narb | Jun 25 - Present"
+                        name = "SDE Intern"
+                        tagline = "Narb | June 25 - August 25"
                         description = {[`- Leading a startup team on creating a shoe collector's app with utilities for all sneakerheads`,
 
-                                `- Experimenting ways to host a computer vision model for sneaker detection while avoiding extra costs of hosting and extra databases`,
+                                `- Fine-tuned a PyTorch CLIP + YOLO pipeline for shoe classification in the wild, achieving a ~82% real-time accuracy during beta testing`,
 
-                                `- Architecturing the AWS-based external API ingestion and database development of our app`,
+                                `- Developed Flask REST API endpoints for retrieving and processing images with NumPy + Albumentations for accelerated model training`,
 
-                                `- Migrating raw designs to React Native`,
+                                `- Orchestrated SageMaker hosting of real-time inference models during beta deployment with CloudWatch monitoring foremphasis on cost optimization 
+                                and model drift detection while supporting 50+ beta users`
+
                             ]}
                     ></Project>
 
@@ -36,14 +38,14 @@ export default function Exp(){
                     <Project
                         name = "ML Research Assistant"
                         tagline = "University of Maryland | Feb 25 - Present"
-                        description = {[`- Developed a LSTM-based  wind speed predictor to find optimal turbine locations to 
-                            power EV chargers`,
+                        description = {[`- Evaluating attention enhancements for a LSTM-based wind speed forecaster in PyTorch for locating optimal wind turbine
+setups for battery charging with a speed-performance balance, achieving ~2 MPH accuracy improvement`,
 
-                                `- Working on integrating Python socket pipelines to stream from  into a central Flask server for 
-                                fast data collection and model training`,
+                                `- Collaborated with a cross-functional engineering team to develop an optimized data ingestion pipeline for communicating
+ESP32-read signal data onto Flask data analysis servers to streamline model evaluation`,
 
-                                `- Utilizing trained models, weather APIs, and Mapbox in Unity to create an AR 
-                                experience for visualizations of optimal EV charger locations`,
+                                `- Formulated and developed an interactive AR presentation experience using Mapbox (C#) that accumulates and 
+                                presents model output on optimal charging setups`,
 
                                 `- Aiding in the optimization of a PWM battery charging module to be able to charge multiple batteries 
                                 efficiently while sending data to our Rasberry Pi server setup`,
@@ -64,27 +66,30 @@ export default function Exp(){
         
 
                     <Project
-                        name = "Software Development Intern"
-                        tagline = "BuildUrFuture | May 25 - August 25"
-                        description = {[`- Integrated vector search on cloud instances to utilize market trends & power intelligent job search`,
+                        name = "SWE Intern"
+                        tagline = "BuildUrFuture | Sep 25 - Nov 25"
+                        description = {[`- Worked on a cross-functional team utilizing modern AI enhancements for an app conducting intelligent job search and matching for students`,
 
-                                `- Implemented scalable data storage and querying using Firebase and Amazon S3 with Athena for analytics and tracking`,
+                                `- Refactored Spring Boot microservices and tests for REST endpoints of a Cohere + Pinecone semantic job search RAG
+pipeline, contributing to a ~44% projected cost decrease`,
 
-                                `- Developed agile workflows with Notion dashboards and scheduling tool automations in Python, establishing team coordination at an early-stage startup`,
+                                `-  Implemented a Kinesis pipeline into S3 with AWS Athena querying functionality in a resume ETL, allowing for a ~30%
+cost optimization in resume-retrieval features with increased scalability and usability among SQL developers`,
                             ]}
                     ></Project>
 
 
                     <Project
                         name = "Co-Founder"
-                        tagline = "TerpLabs | Apr 25 - Present"
-                        description = {[`- Co-Founded TerpLabs, a student org. at UMD creating apps and utilities for students, and leading the development of TerpMeals`,
+                        tagline = "TerpLabs | June 25 - Present"
+                        description = {[`- Leading 50+ developers across 5 cross-functional teams on building campus utilities integrated with UMD services`,
 
-                                `- Built asynchronous Puppeteer scripts hosted on Lambda functions for fast scraping of 200+ menu items and nutritional information`,
+                                `- Aided in the development of Tortuga, an enhanced scheduling app serving 2,000+ users, in migrating its BeautifulSoup4 scraping function
+to run as a cron-style Lambda function fronted by API Gateway to support caching during heavy traffic`,
 
-                                `- Implemented a Mistral-powered workflow for AI-generated nutrition plans that have received >80% satisfaction rates`,
-
-                                `- Establishing organization for bootcamps and project teams to give students real-world experience in both building and growing a product`,
+                                `- Currently leading a team of developers on TerpMeals, a campus dining app, while engineering a meal-suggestion RAG pipeline for the app
+                                using GPT-4o mini, ChromaDB, and
+Sentence-BERT on Cheerio-scraped recipe data, achieving ~93% user satisfaction from student testers`,
                             ]}
                     ></Project>
 
@@ -92,7 +97,7 @@ export default function Exp(){
 
                     <Project
                         name = "Sustainability Analytics Researcher"
-                        tagline = "University of Maryland | Jan 25 - Present"
+                        tagline = "University of Maryland | Jan 25 - December 25"
                         description = {[`- Analyzed datasets regarding the adaptation of "smart-city" utilities in the Baltimore area`,
 
                                 `- Utilized R to find trends and evaluated performance of a regression model to understand the feasibility of smart-city tools`,
@@ -118,11 +123,15 @@ export default function Exp(){
                 <Project
                     name = "Echelon"
                     tagline = "A ranking app powered by modern vector search advancements"
-                    description = {[`- Utilized Pinecone embeddings predicted by currently trained versions of CLIP and Wave2Vec to power intelligent matchmaking`,
+                    description = {[
+                        
+                        `- Developed a gamified experience for hosting hackathons and competitive events using React, Express, and MongoDB`,
 
-                            `- Created a versatile API for embedding as Fargate EC2 tasks for simple, low-cost tasks on a simple Flask APIs, and with deployment automated with Terraform`,
 
-                            `- Made fast CRUD functionality with MongoDB + Express for APIs and React for the frontend`,
+                        `- Utilized Pinecone embeddings predicted by currently trained versions of CLIP and Wave2Vec to power intelligent matchmaking`,
+
+                            `- Built a Mistral-based LangChain pipeline with optimized prompting for faster hackathon search and summarization
+`
                         ]}
                     github = "https://github.com/AmarDhillon05/echelon"
                     site = "https://echelon-ob8vzl020-amardhillon05s-projects.vercel.app/"
@@ -132,11 +141,11 @@ export default function Exp(){
                 <Project
                     name = "PianoAI"
                     tagline = "A beginner-friendly AI-assisted piano music composer"
-                    description = {[`- Created a NextJS app with Vexflow and ToneJS to create a simple note composition interface used for teaching beginners`,
+                    description = {[`-  Created a beginner-friendly React app containing a simple note composition interface used by myself and friends for teaching basic composition to elementary-school classes`,
 
-                            `- Developed a PyTorch LSTM-based next-note predictor to generate piano notes with ~0.03 MSE loss to  and deployed as an EC2 API to aid in creative composition`,
+                            `- Designed a PyTorch transformer for generating piano notes optimized to use <128 MB during inference on 50+ scores`,
 
-                            `- Utilized DynamoDB to provide CRUD functionality for saving, sharing and editing compositions in the app`,
+                            `- Utilized TorchScript (C++) on AWS Lambda for JIT model deployment, increasing inference speeds by ~33%`,
                         ]}
                     github = "https://github.com/AmarDhillon05/PianoAI"
                     site = "https://pianoai.adh05.com"

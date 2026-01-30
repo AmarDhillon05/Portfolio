@@ -9,22 +9,22 @@ export default function Home(){
             <div className = "flex flex-row flex-wrap w-full my-8 items-center justify-center">
 
                 <Skills name = "Languages" 
-                skills = {["Python", "Javascript", "HTML/CSS", "Java", "C", "C++", "C#", "R"]}></Skills>
+                skills = {["Python", "JavaScript/TypeScript", "HTML/CSS", "Java", "C", "C++", "C#", "R"]}></Skills>
 
                 <Skills name = "Web & App Development" 
-                skills = {["React", "Vue", "Express", "Flask", "Django", "Next"]}></Skills>
+                skills = {["React.js/Next.js", "Spring Boot", "Vue", "Express", "Flask", "Django"]}></Skills>
 
                 <Skills name = "Data and Analytics" 
-                skills = {["SQL", "MongoDB", "Excel", "Tableau", "Pandas", "NumPy", "OpenCV", "GraphQL"]}></Skills>
+                skills = {["SQL", "MongoDB", "Pandas", "NumPy", "OpenCV", "GraphQL"]}></Skills>
 
                 <Skills name = "AI & Machine Learning" 
-                skills = {["SkLearn", "Tensorflow", "PyTorch", "HuggingFace", "LangChain"]}></Skills>
+                skills = {["Scikit-Learn", "Tensorflow", "PyTorch", "HuggingFace", "LangChain", "CUDA"]}></Skills>
 
                 <Skills name = "Hardware & Embedded" 
-                skills = {["Arduino architectures", "Rasberry Pi", "Assembly", "FreeRTOS", "EasyEDA", "Verilog", "Digital Logic"]}></Skills>
+                skills = {["Arduino architectures", "Rasberry Pi", "Assembly", "FreeRTOS", "EasyEDA",]}></Skills>
 
                 <Skills name = "Cloud & DevOps" 
-                skills = {["AWS", "Docker", "GCP", "Terraform", "Git", "CICD"]}></Skills>
+                skills = {["AWS", "Docker", "Terraform", "Git", "CI/CD", "TDD"]}></Skills>
 
             </div>
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function Typed({ text, delay, classList }) {
+export default function Typed({ text, delay, classList, stopTyping, blinkTimeout }) {
     const [typed, setTyped] = useState("_");
 
     useEffect(() => {
@@ -13,7 +13,7 @@ export default function Typed({ text, delay, classList }) {
                 : currentTyped.slice(0, -1) + "_";
 
             setTyped(currentTyped);
-            setTimeout(blinkCursor, 750);
+            setTimeout(blinkCursor, blinkTimeout || 750);
         }
 
         function type() {
@@ -23,7 +23,9 @@ export default function Typed({ text, delay, classList }) {
                 setTyped(currentTyped);
                 setTimeout(type, 20);
             } else {
-                setTimeout(blinkCursor, 750);
+                if(!stopTyping){
+                    setTimeout(blinkCursor, blinkTimeout | 750);
+                }
             }
         }
 
